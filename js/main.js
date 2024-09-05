@@ -1,3 +1,9 @@
-document.querySelector('.hamburger-menu').addEventListener('click', function() {
-document.querySelector('.mobile-menu').classList.toggle('open');
-});
+function showSidebar() {
+    const sidebar = document.querySelector('.sidebar');
+    sidebar.style.display = 'flex'
+};
+
+function closeSidebar() {
+    const sidebar = document.querySelector('.sidebar');
+    sidebar.style.display = 'none'
+};
